@@ -2,7 +2,8 @@
 
       /*---header---*/        
 header div a {margin-right: 14px;
-              text-decoration-line: none;}
+              text-decoration-line: none;
+              color: #000;}
 
 a:hover {text-decoration: underline;}              
 
@@ -16,8 +17,7 @@ a.apps {background-image: url(./img/ic_apps_black_24dp_1x.png);
         width: 30px; height: 30px;
         display: inline-block;
         background-repeat: no-repeat;
-        vertical-align: middle;
-        }
+        vertical-align: middle;}
    
 button {background-color: #4387fd;
 	font-weight: bold;
@@ -50,13 +50,19 @@ section {background-image: url(./img/index.png);
 
 .button {height: 36px;
          line-height: 27px;
-         font-size: 13px;
-         font-weight: bold;
+         font-size: 13px;font-weight: bold;
          font-family: arial,sans-serif;
-         margin-right: 10px;} 
+         margin: 11px 4px
+         padding: 0 16px;
+         border-radius: 2px;
+         border: 0px solid #4d90fe;
+         color: #757575;
+         cursor: default;
+         outline: none;} 
 
 section div {padding-top: 30px;
-             text-align: center;}             
+             text-align: center;
+         }             
 
        /*---footer---*/
 
@@ -65,7 +71,8 @@ section div {padding-top: 30px;
             padding-left: 20px;}
 
 footer div a {margin-right: 20px;
-              text-decoration-line: none;}
+              text-decoration-line: none;
+              color: #666;}
 
 footer div {padding-top: 248px;
             padding-right:15px;
