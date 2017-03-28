@@ -59,10 +59,14 @@ section div {padding-top: 30px;
        /*---footer---*/
 
 .footright {float: right;}
-.footleft  {float: left;}
+.footleft  {float: left;
+            padding-left: 20px;}
+
+footer div a {margin-right: 20px;}
 
 footer div {background-color: grey;
-            padding-top: 255px;
+            padding-top: 248px;
+            padding-right:15px;
             font-family: arial,sans-serif;
             font-size: 13px;}
 
