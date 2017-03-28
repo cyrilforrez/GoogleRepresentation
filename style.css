@@ -1,0 +1,52 @@
+
+
+      /*---header---*/        
+header div a {margin-right: 14px;}
+
+header div {text-align: right;
+        background-color: green;
+        padding-top: 8px;
+        padding-right: 30px;
+        font-family: arial,sans-serif;
+        font-size: 13px;}
+
+a.apps {background-image: url(ic_apps_black_24dp_1x.png); 
+        width: 30px; height: 30px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        vertical-align: middle;}
+   
+
+button {background-color: #4387fd;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+    border: none;
+    color:white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 30px;}
+
+    	 
+
+
+       /*---section---*/
+section {background-color: blue;}
+
+section img {}
+
+	
+         
+
+.secleft {display: inline-block;}
+.secright {display: inline-block;}
+         
+
+       /*---footer---*/
+
+.footright {float: right;}
+.footleft {float: left;}
+
