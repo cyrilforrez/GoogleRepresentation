@@ -39,7 +39,7 @@ button {background-color: #4387fd;
 section {background-image: url(./img/index.png);
          background-repeat: no-repeat;
          background-position: 470px;
-         width:  px; height: 200px;
+         height: 200px;
          padding-top: 100px;
          margin-top: 50px;}
 
@@ -52,7 +52,7 @@ section {background-image: url(./img/index.png);
          line-height: 27px;
          font-size: 13px;font-weight: bold;
          font-family: arial,sans-serif;
-         margin: 11px 4px
+         margin: 11px 4px;
          padding: 0 16px;
          border-radius: 2px;
          border: 0px solid #4d90fe;
@@ -74,7 +74,7 @@ footer div a {margin-right: 20px;
               text-decoration-line: none;
               color: #666;}
 
-footer div {padding-top: 248px;
+footer div {padding-top: 218px;
             padding-right:15px;
             font-family: arial,sans-serif;
             font-size: 13px;}
