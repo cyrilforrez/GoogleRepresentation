@@ -60,11 +60,12 @@ section {background-image: url(./img/index.png);
          cursor: default;
          outline: none;}
 
-.button:hover {border: 1px solid #757575;
+.button:hover {background-color:#f2f2f2; 
+	           border: 1px solid #757575;
                font-size: 13px;
                font-weight: bold;
                font-family: arial,sans-serif;
-               color: black;}        
+               color: black;}                     
 
 section div {padding-top: 30px;
              text-align: center;}             
