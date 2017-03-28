@@ -1,10 +1,12 @@
 
 
       /*---header---*/        
-header div a {margin-right: 14px;}
+header div a {margin-right: 14px;
+              text-decoration-line: none;}
+
+a:hover {text-decoration: underline;}              
 
 header div {text-align: right;
-        background-color: green;
         padding-top: 8px;
         padding-right: 30px;
         font-family: arial,sans-serif;
@@ -14,7 +16,8 @@ a.apps {background-image: url(./img/ic_apps_black_24dp_1x.png);
         width: 30px; height: 30px;
         display: inline-block;
         background-repeat: no-repeat;
-        vertical-align: middle;}
+        vertical-align: middle;
+        }
    
 button {background-color: #4387fd;
 	font-weight: bold;
@@ -33,8 +36,7 @@ button {background-color: #4387fd;
 
 
        /*---section---*/
-section {background-color: blue;
-         background-image: url(./img/index.png);
+section {background-image: url(./img/index.png);
          background-repeat: no-repeat;
          background-position: 470px;
          width:  px; height: 200px;
@@ -51,7 +53,7 @@ section {background-color: blue;
          font-size: 13px;
          font-weight: bold;
          font-family: arial,sans-serif;
-         margin-right: 15px;} 
+         margin-right: 10px;} 
 
 section div {padding-top: 30px;
              text-align: center;}             
@@ -62,10 +64,10 @@ section div {padding-top: 30px;
 .footleft  {float: left;
             padding-left: 20px;}
 
-footer div a {margin-right: 20px;}
+footer div a {margin-right: 20px;
+              text-decoration-line: none;}
 
-footer div {background-color: grey;
-            padding-top: 248px;
+footer div {padding-top: 248px;
             padding-right:15px;
             font-family: arial,sans-serif;
             font-size: 13px;}
