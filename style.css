@@ -50,7 +50,7 @@ section {background-image: url(./img/index.png);
 
 .button {height: 36px;
          line-height: 27px;
-         font-size: 13px;font-weight: bold;
+         font-size: 13px; font-weight: bold;
          font-family: arial,sans-serif;
          margin: 11px 4px;
          padding: 0 16px;
@@ -58,11 +58,16 @@ section {background-image: url(./img/index.png);
          border: 0px solid #4d90fe;
          color: #757575;
          cursor: default;
-         outline: none;} 
+         outline: none;}
+
+.button:hover {border: 1px solid #757575;
+               font-size: 13px;
+               font-weight: bold;
+               font-family: arial,sans-serif;
+               color: black;}        
 
 section div {padding-top: 30px;
-             text-align: center;
-         }             
+             text-align: center;}             
 
        /*---footer---*/
 
