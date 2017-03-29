@@ -1,89 +1,129 @@
+body {
+	font-family: arial,sans-serif;
+}
 
+/*----------------------------------------header------------------------------------------------------------*/        
+header div a {
+    margin-right: 14px;
+    text-decoration-line: none;
+    color: #000;
+}
 
-      /*---header---*/        
-header div a {margin-right: 14px;
-              text-decoration-line: none;
-              color: #000;}
+a:hover {
+	text-decoration: underline;
+} 
 
-a:hover {text-decoration: underline;}              
+header div {
+	text-align: right;
+    padding: 8px 30px 0px 0px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
 
-header div {text-align: right;
-        padding-top: 8px;
-        padding-right: 30px;
-        font-family: arial,sans-serif;
-        font-size: 13px;}
-
-a.apps {background-image: url(./img/ic_apps_black_24dp_1x.png); 
-        width: 30px; height: 30px;
-        display: inline-block;
-        background-repeat: no-repeat;
-        vertical-align: middle;}
+a.apps {
+	background-image: url(./img/ic_apps_black_24dp_1x.png); 
+    width: 30px; height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
    
-button {background-color: #4387fd;
+button {
+	background-color: #4387fd;
 	font-weight: bold;
 	font-family: arial, sans-serif;
     border: none;
     color:white;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 13px;
     cursor: pointer;
     border-radius: 2px;
-    height: 30px;}
+    height: 30px;
+}
 
-    	 
+/*----------------------------------------------section------------------------------------------------------------*/
+section {
+	background-image: url(./img/index.png);
+    background-repeat: no-repeat;
+    background-position: 470px;
+    height: 200px;
+    padding-top: 100px;
+    margin-top: 50px;
+}
 
+.but {
+	position: absolute;
+	height: 60px; width: 400px;
+	padding:20px 0px 0px 493px;
 
-       /*---section---*/
-section {background-image: url(./img/index.png);
-         background-repeat: no-repeat;
-         background-position: 470px;
-         height: 200px;
-         padding-top: 100px;
-         margin-top: 50px;}
-
+}
          
 
-.search {padding-left: 345px;
-       margin-left: 350px;
-       margin-top: 120px;
-       line-height: 34px;}
+.search {
+	padding-left: 345px;
+    margin: 120px 0px 0px 350px;
+    line-height: 34px;
+}
 
-.button {height: 36px;
-         line-height: 27px;
-         font-size: 13px; font-weight: bold;
-         font-family: arial,sans-serif;
-         margin: 11px 4px;
-         padding: 0 16px;
-         border-radius: 2px;
-         border: 0px solid #4d90fe;
-         color: #757575;
-         cursor: default;
-         outline: none;}
+.button {
+	height: 36px;
+    line-height: 27px;
+    font-size: 13px; 
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border-radius: 2px;
+    border: 0px solid #4d90fe;
+    color: #757575;
+    cursor: default;
+    outline: none;
+}
 
-.button:hover {background-color:#f2f2f2; 
-	           border: 1px solid #757575;
-               font-size: 13px;
-               font-weight: bold;
-               font-family: arial,sans-serif;
-               color: black;}                     
+.button:hover {
+	background-color:#f2f2f2; 
+	border: 1px solid #757575;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+    color: black;
+}                             
 
-section div {padding-top: 30px;
-             text-align: center;}             
+/*--------------------------------------------------------footer------------------------------------------------------*/
+.bar {
 
-       /*---footer---*/
+	 background: #f2f2f2;
+border-top: 1px solid #e4e4e4;
+line-height: 40px;
+min-width: 980px;
+}
+footer {background-color: #f2f2f2;;
+    bottom: 0;
+    font-size: 10pt;
+    height: 35px;
+    position: absolute;
+    width: 1293px;
+}
 
-.footright {float: right;}
-.footleft  {float: left;
-            padding-left: 20px;}
 
-footer div a {margin-right: 20px;
-              text-decoration-line: none;
-              color: #666;}
+.footright {
+	height: 35px; width: 320px;
+	position: absolute;
+	bottom: 6px;
+	right: 1px;
+}
+.footleft  {
+    height: 35px; width: 300px;
+    position: absolute;
+    bottom: 6px;
+    left: 23px;
+}
 
-footer div {padding-top: 218px;
-            padding-right:15px;
-            font-family: arial,sans-serif;
-            font-size: 13px;}
+footer a {
+	margin-right: 20px;
+    text-decoration-line: none;
+    color: #666;
+}
+
 
